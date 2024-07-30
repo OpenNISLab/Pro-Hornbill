@@ -11,7 +11,7 @@ This repository is an Open-source code for the MobiCom 2024 conditional acceptan
 
 ## Applcation
 
-![applcations](./applcations.png)
+![applcations](./applications.png)
 
 ## Quick Start
 
