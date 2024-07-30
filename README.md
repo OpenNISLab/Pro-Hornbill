@@ -15,4 +15,10 @@ This repository is an Open-source code for the MobiCom 2024 conditional acceptan
 
 ## Quick Start
 
-The code is currently being organized.  Please stay tuned for updates.
+The paper is currently in a conditional acceptance state, and we will release the relevant code after the official acceptance.
+
+### Contributors
+
+[@Guorong-He](https://github.com/Guorong-He).
+[@LIKE109](https://github.com/LIKE109).
+[@longsslz](https://github.com/longsslz).
