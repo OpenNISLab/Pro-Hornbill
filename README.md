@@ -9,10 +9,10 @@ This repository is an Open-source code for the MobiCom 2024 conditional acceptan
 
 ![overview](./overview.png)
 
-## Applcation
+## Application
 
 ![applcations](./applications.png)
 
 ## Quick Start
 
-The code is being sorted out, so stay tuned.
+The code is currently being organized.  Please stay tuned for updates.
