@@ -1,0 +1,83 @@
+{
+	"pages": [{
+			"path": "pages/tabbar/home",
+			"style": {
+				"navigationBarTitleText": "Hornbill",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/start",
+			"style": {
+				"navigationBarTitleText": "start",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/tabbar/countdown",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}, {
+			"path": "pages/tabbar/more",
+			"style": {
+				"navigationBarTitleText": "more",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/setting",
+			"style": {
+				"navigationBarTitleText": "setting",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/history",
+			"style": {
+				"navigationBarTitleText": "history",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"usekf-(.*)": "@/sub-kf/components/usekf-$1/usekf-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Hornbill",
+		"navigationBarBackgroundColor": "#f5f5f5",
+		"backgroundColor": "#f5f5f5",
+		// 自定义头部需设置为 custom，默认为 default
+		"navigationStyle": "default",
+		"mp-alipay": {
+			"titleBarColor": "#ffffff"
+		},
+		"mp-360": {
+			// 去掉uni-app header，使用360小程序header
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			// 自定义头部
+			"navigationStyle": "custom"
+		}
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#ff6a6c",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "",
+			"path": "",
+			"query": ""
+		}]
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"wxpay": {
+		"appid": "微信小程序 appid",
+		"mchid": "微信支付商户号",
+		"partnerKey": "微信支付商户key (APIv2密钥)"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"bsonType": "object",
+	"permission": {
+		"read": "('read' in auth.role)",
+		"create": "('create' in auth.role)",
+		"update": "('update' in auth.role)",
+		"delete": "('delete' in auth.role)",
+		"count": "('read' in auth.role)"
+	},
+	"required": ["cycle_id"],
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID，系统自动生成"
+		},
+		"cycle_id": {
+			"bsonType": "int",
+			"description": "周期",
+			"trim": "both"
+		},
+		"setting": {
+			"bsonType": "string",
+			"description": "参数记录"
+		},
+		"arr": {
+			"bsonType": "string",
+			"description": "点位坐标"
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "菜单创建时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}
