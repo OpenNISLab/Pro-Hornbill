@@ -1,8 +1,0 @@
-{
-	"provider": {
-		"mp-weixin": {
-			"appid": "小程序 appid",
-			"appsecret": "小程序 appsecret"
-		}
-	}
-}
