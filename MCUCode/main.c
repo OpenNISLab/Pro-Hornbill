@@ -87,15 +87,8 @@ volatile uint8_t NFCWriteData[17]={0x01,
                                    0x00,0x00,0x00,0x00,
                                    0x00,0x00,0x00,0x00};		// NFC Write data
 volatile uint8_t NFCWriteREGData[2];							// NFC writes register data
-volatile uint8_t NFCReadData[16]={0x00,0x00,0x00,0x00,
-                                  0x00,0x00,0x00,0x00,
-                                  0x00,0x00,0x00,0x00,
-                                  0x00,0x00,0x00,0x00};			// NFC reading data
-volatile uint8_t NFCNDEFData_mid[20]={0x00,0x00,0x00,0x00,
-                                      0x00,0x00,0x00,0x00,
-                                      0x00,0x00,0x00,0x00,
-                                      0x00,0x00,0x00,0x00,
-                                      0x00,0x00,0x00,0x00};		// NFC reading data
+volatile uint8_t NFCReadData[16]={0x00};			// NFC reading data
+volatile uint8_t NFCNDEFData_mid[20]={0x00};		// NFC reading data
 
 volatile uint8_t NFCNDEFData[1000];								// NFC encapsulates the NDEF message format
 volatile uint8_t NFCReadREGData[2];								// NFC reads the register data
