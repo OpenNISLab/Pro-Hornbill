@@ -268,7 +268,7 @@ void main (void)
  * @param-*str	: A pointer to a character type
  * @return		: character size
  */
-int binaryToAscii(int data, char *str)
+char binaryToAscii(int data, char *str)
 {
     int len = 0;
     int value;
